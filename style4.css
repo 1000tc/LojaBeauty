@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFD6D6;
+  height: 2600px ;
+}
+.container{
+  max-width: 1100px;
+  margin: auto;
+}
+header{
+  background-color: #650404;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  width: 1100px;
+  margin: auto;
+  top: 0;
+  z-index:2;
+}
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.title{
+  font-size: 26px;
+}
+header ul li {
+  margin:0;
+  padding:0;
+  margin-top: 1%;
+  padding-left: 2%;
+  display: inline-flex;
+  padding: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  background-color: #BD0A0A;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+header ul li:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: #BD0A0A;
+}
+
+.produtos{
+  margin-top: 15%;
+}
+.produtos ul li{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  display: inline-flex;
+  margin-top: 2%;
+  margin-left: 1%;
+  z-index:1;
+}
+.produtos a{
+  background-color: #023e8a;
+  color:#f5f3f4;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 4%;
+  padding-left: 6%;
+  padding-right: 6%;
+  z-index: 1;
+}
+.produtos a:hover{
+  transition: 0.2s ease;
+  background-color:#55a630;
+  color: #132a13;
+  border-radius: 30px;
+}
+.perfume{
+  background-image: url(./images1/birgith-roosipuu-nka_sIQpKEU-unsplash.jpg);
+  background-position:center;
+  background-size: 100%;
+}
+.joias{
+  background-image: url(./images1/alex-azabache-y2ErhoE92KA-unsplash.jpg);
+  background-position:center;
+  background-size: 100%;
+}
+.Joias{
+  background-image: url(./images1/cornelia-ng-zZLhoEwGCeM-unsplash.jpg);
+  background-position:center;
+  background-size: 100%;
+}
+.maquiagem{
+  background-image: url(./images1/jazmin-quaynor-FoeIOgztCXo-unsplash.jpg);
+  background-position:center;
+  background-size: 100%;
+}
+
+.roupas{
+  background-image: url(./images1/md-salman-tWOz2_EK5EQ-unsplash.jpg);
+  background-position:center;
+  background-size: 100%;
+}
